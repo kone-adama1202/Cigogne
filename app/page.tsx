@@ -56,7 +56,7 @@ export default async function Home() {
       <section className="relative isolate overflow-hidde">
         {/* Image d'arrière-plan : /public/logo.png (à remplacer par une photo) */}
         <Image
-          src="/ApB.png"
+          src="/arriere-plan.png"
           alt=""
           fill
           priority
