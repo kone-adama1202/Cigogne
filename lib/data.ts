@@ -97,10 +97,10 @@ export const services = [
 /* -------------------------------------------------------------------------- */
 
 export const categories = [
-  { slug: "ordinateurs", title: "Ordinateurs", text: "Portables et ordinateurs de bureau" },
-  { slug: "telephones", title: "Téléphones", text: "Smartphones et accessoires" },
-  { slug: "ecrans", title: "Écrans", text: "Moniteurs et écrans pour le bureau" },
-  { slug: "imprimantes", title: "Imprimantes", text: "Imprimantes et photocopieurs" },
-  { slug: "consommables", title: "Encres & toners", text: "Cartouches, toners et papiers" },
-  { slug: "fournitures", title: "Fournitures de bureau", text: "Tout pour équiper votre bureau" },
+  { slug: "ordinateurs", title: "Ordinateurs", text: "Portables et ordinateurs de bureau", icon: "💻" },
+  { slug: "telephones", title: "Téléphones", text: "Smartphones et accessoires", icon: "📱" },
+  { slug: "ecrans", title: "Écrans", text: "Moniteurs et écrans pour le bureau", icon: "🖥️" },
+  { slug: "imprimantes", title: "Imprimantes", text: "Imprimantes et photocopieurs", icon: "🖨️" },
+  { slug: "consommables", title: "Encres & toners", text: "Cartouches, toners et papiers", icon: "🎨" },
+  { slug: "fournitures", title: "Fournitures de bureau", text: "Tout pour équiper votre bureau", icon: "📎" },
 ];
