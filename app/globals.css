@@ -1,26 +1,46 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Bleu fort : actions, liens, boutons principaux */
+  --color-brand-50:  #eef3ff;
+  --color-brand-100: #dce6ff;
+  --color-brand-200: #bfd0ff;
+  --color-brand-300: #93adff;
+  --color-brand-400: #5f82f5;
+  --color-brand-500: #3b63e6;
+  --color-brand-600: #2549c9; /* bleu principal */
+  --color-brand-700: #1c3aa3;
+  --color-brand-800: #1a3182;
+  --color-brand-900: #172a66;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Anthracite : couleur du logo (#404040), structure et éléments actifs */
+  --color-ink-50:  #f6f6f6;
+  --color-ink-100: #ececec;
+  --color-ink-200: #d9d9d9;
+  --color-ink-300: #b8b8b8;
+  --color-ink-400: #8a8a8a;
+  --color-ink-500: #5a5a5a;
+  --color-ink-600: #404040; /* = logo */
+  --color-ink-700: #2e2e2e;
+  --color-ink-800: #212121;
+  --color-ink-900: #171717;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Doré « soleil » : badge panier, focus, détails */
+  --color-accent-300: #f7d089;
+  --color-accent-400: #f2b84b;
+  --color-accent-500: #e9a21f;
+  --color-accent-600: #c8850f;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Gris neutres sans teinte bleue (valeurs en dur = fiable) */
+  --color-slate-50:  #fafafa;
+  --color-slate-100: #f5f5f5;
+  --color-slate-200: #e5e5e5;
+  --color-slate-300: #d4d4d4;
+  --color-slate-400: #a3a3a3;
+  --color-slate-500: #737373;
+  --color-slate-600: #525252;
+  --color-slate-700: #404040;
+  --color-slate-800: #262626;
+  --color-slate-900: #171717;
+  --color-slate-950: #0a0a0a;
 }
